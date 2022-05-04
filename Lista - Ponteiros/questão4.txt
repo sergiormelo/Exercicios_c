@@ -8,5 +8,7 @@ printf("%c \n", aux);
 -> Sim.
 printf("%c \n", *p3);
 -> Não há uma resposta certa, pois não dá para saber o que o autor pretende. Porém é impresso o "p", pois é a posição 0 do char.
- printf("%c \n", *p3);
- -> Sim, pois imprime o ponteiro 4 "unidades" a frente.
+printf("%c \n", *p3);
+-> Sim, pois imprime o ponteiro 4 "unidades" a frente.
+printf("%c \n", *p3);
+-> Sim, pois se desloca 1 "unidade" (byte) para trás.

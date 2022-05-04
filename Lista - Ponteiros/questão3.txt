@@ -1,0 +1,16 @@
+p = i;
+-> Programa compila com problemas.
+q = &j;
+-> Normal.
+p = &*&i;
+-> Normal.
+i = (*&)j;
+-> Não funciona.
+i = *&j;
+-> Normal.
+i = *&*&j;
+-> Normal.
+q = *p;
+-> Programa compila com problemas.
+i = (*p)++ + *q;
+-> Normal.

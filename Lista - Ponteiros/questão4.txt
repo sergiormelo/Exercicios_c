@@ -1,0 +1,12 @@
+printf("%d \n", valor);
+-> Sim. Pois foi armazenado o valor 20 no endereço da variável "valor".
+printf("%.1f \n", temp);
+-> Sim. Mesma situação anterior.
+printf("%c \n", aux);
+-> Sim.
+printf("%c \n", aux);
+-> Sim.
+printf("%c \n", *p3);
+-> Não há uma resposta certa, pois não dá para saber o que o autor pretende. Porém é impresso o "p", pois é a posição 0 do char.
+ printf("%c \n", *p3);
+ -> Sim, pois imprime o ponteiro 4 "unidades" a frente.

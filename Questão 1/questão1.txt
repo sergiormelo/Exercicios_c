@@ -10,7 +10,7 @@ int main(){
     printf("%d\n",**&p);
     printf("%d\n",(3 - *p/(*q) + 7));
 }
-Respotas:
+Respostas:
 0.000000
 0.000000
 3
